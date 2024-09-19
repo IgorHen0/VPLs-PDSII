@@ -41,15 +41,12 @@ void Campeonato::executar_batalha(int idt1, int idpk1, int idt2, int idpk2) {
 
         if (pokemon1 && pokemon2) {
             std::cout << "### Batalha ###" << std::endl;
-            pokemon1->falar_nome();  // O nome do primeiro Pokémon será impresso
-            std::cout << " vs. ";
-            pokemon2->falar_nome();  // O nome do segundo Pokémon será impresso
+            pokemon1->falar_nome();  
+            std::cout << " vs. " << std::endl;
+            pokemon2->falar_nome(); 
 
-
-            // Pokémon 1 ataca Pokémon 2
             pokemon1->atacar(pokemon2);
 
-            // Imprimir status do Pokémon 2 após o ataque
             pokemon2->imprimir_status();
             std::cout << "#########" << std::endl;
         } else {
