@@ -15,7 +15,7 @@ int main() {
         if (operacao == 't') {
             std::string nome_treinador;
             iss >> nome_treinador;
-            campeonato.cadastrar_treinador(nome_treinador);
+            campeonato.cadastrar_treinador(nome_treinador); 
         }
         else if (operacao == 'i') {
             int idt;

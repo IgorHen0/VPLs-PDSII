@@ -16,7 +16,7 @@ void Pokemon::falar_tipo_ataque() {
 
 void Pokemon::imprimir_status() {
     std::cout << _nome << "!" << std::endl;
-    std::cout << "Energia: " << _energia << std::endl;
+    std::cout << "Energia: " << _energia << std::endl; 
 }
 
 void Pokemon::imprimir_informacoes() {

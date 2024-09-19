@@ -14,7 +14,7 @@ public:
     void imprimir_informacoes();
     virtual double calcular_dano() = 0; 
     void atacar(Pokemon* outro_pokemon);
-    void receber_dano(double valor_dano);
+    void receber_dano(double valor_dano); 
 
 protected: 
     std::string _nome;

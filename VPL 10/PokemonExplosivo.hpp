@@ -15,7 +15,7 @@ public:
     double ataque_explosivo();
 
 private:
-    double _temperatura_explosao;
+    double _temperatura_explosao; 
 };
 
 #endif

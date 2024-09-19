@@ -4,7 +4,7 @@
 #include <iostream>
 #include "Campeonato.hpp"
 
-using namespace std;
+using namespace std; 
 
 void avaliacao_basica() {
     

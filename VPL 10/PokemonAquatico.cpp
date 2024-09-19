@@ -14,5 +14,5 @@ double PokemonAquatico::calcular_dano() {
 }
 
 double PokemonAquatico::ataque_aquatico() {
-    return _forca_ataque + _litros_jato; 
+    return _forca_ataque + _litros_jato;  
 }

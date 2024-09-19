@@ -13,6 +13,6 @@ double PokemonExplosivo::calcular_dano() {
     return ataque_explosivo(); 
 }
 
-double PokemonExplosivo::ataque_explosivo() {
+double PokemonExplosivo::ataque_explosivo() { 
     return _forca_ataque / _temperatura_explosao; 
 }

@@ -14,7 +14,7 @@ void Treinador::cadastrar_pokemon_aquatico(std::string nome, std::string tipo_at
 
 void Treinador::cadastrar_pokemon_explosivo(std::string nome, std::string tipo_ataque, double forca_ataque, double temperatura_explosao) {
     PokemonExplosivo* pokemon = new PokemonExplosivo(nome, tipo_ataque, forca_ataque, temperatura_explosao);
-    _pokemons.push_back(pokemon);
+    _pokemons.push_back(pokemon); 
 }
 
 Pokemon* Treinador::usar_pokemon(int idpk) {

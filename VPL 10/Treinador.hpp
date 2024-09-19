@@ -22,7 +22,7 @@ class Treinador{
         Pokemon* usar_pokemon(int idpk);
     
     private:
-        std::string _nome;
+        std::string _nome; 
         std::vector<Pokemon*> _pokemons;
 };
 

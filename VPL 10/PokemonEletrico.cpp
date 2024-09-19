@@ -13,6 +13,6 @@ double PokemonEletrico::calcular_dano() {
     return ataque_eletrico(); 
 }
 
-double PokemonEletrico::ataque_eletrico() {
+double PokemonEletrico::ataque_eletrico() { 
     return _forca_ataque * _potencia_raio; 
 }

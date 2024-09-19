@@ -12,7 +12,7 @@ public:
 
     double calcular_dano() override;
 
-    double ataque_eletrico();
+    double ataque_eletrico(); 
 
 private:
     double _potencia_raio;
