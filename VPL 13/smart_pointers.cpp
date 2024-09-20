@@ -1,57 +1,44 @@
 #include <iostream>
-#include <memory>  // Para smart pointers
+#include <memory> 
 
 class Teste {
 public:
-    int valor;
+    int atributo;
 
-    // Construtor padrão
-    Teste() : valor(0) {
-        std::cout << "Construtor " << valor << std::endl;
+    Teste() : atributo(0) {
+        std::cout << "Construtor " << atributo << std::endl;
     }
 
-    // Construtor que inicializa com um valor
-    Teste(int v) : valor(v) {
-        std::cout << "Construtor " << valor << std::endl;
+    Teste(int valor) : atributo(valor) {
+        std::cout << "Construtor " << atributo << std::endl;
     }
 
-    // Destrutor
     ~Teste() {
-        std::cout << "Destrutor " << valor << std::endl;
+        std::cout << "Destrutor " << atributo << std::endl;
     }
 };
 
 int main() {
     int n;
-    std::cin >> n;  // Lê o valor de entrada (n)
+    std::cin >> n;
 
     if (n % 2 == 0) {
-        // Caso n seja par
         for (int c = 1; c <= n; ++c) {
-            // Ponteiro tradicional
-            Teste* ptr_tradicional = new Teste(c);
+            Teste* ptr = new Teste(c);  
 
-            // unique_ptr
-            std::unique_ptr<Teste> ptr_unique = std::make_unique<Teste>(c);
+            std::unique_ptr<Teste> uptr = std::make_unique<Teste>(c); 
 
-            // Liberar memória do ponteiro tradicional manualmente
-            delete ptr_tradicional;
         }
     } else {
-        // Caso n seja ímpar
-        std::shared_ptr<Teste> ptr_shared = std::make_shared<Teste>(0);
+        std::shared_ptr<Teste> sptr = std::make_shared<Teste>(0);
 
         for (int c = 1; c <= n; ++c) {
-            // Criando outro shared_ptr que aponta para o mesmo objeto
-            std::shared_ptr<Teste> ptr_shared_inner = ptr_shared;
-            ptr_shared_inner->valor = c;
+            std::shared_ptr<Teste> sptr_loop = sptr;
+            sptr_loop->atributo = c;
         }
 
-        // Exibir quantos shared_ptr estão apontando para o mesmo objeto
-        std::cout << "use_count: " << ptr_shared.use_count() << std::endl;
+        std::cout << sptr.use_count() << std::endl;
     }
-
-    system("pause");
 
     return 0;
 }
