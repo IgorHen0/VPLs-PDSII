@@ -14,57 +14,57 @@ Abaixo segue a lista de todos os enunciados e soluções dos VPLs:
 
 ### VPL 1 - Wordle  
  - [Enunciado](https://github.com/IgorHen0/VPLs-PDSII/blob/main/Enunciados/enunciado_wordle.pdf)
- - [Solução sugeriada](https://github.com/IgorHen0/VPLs-PDSII/tree/main/VPL%201)  
+ - [Solução sugeriada](https://github.com/IgorHen0/VPLs-PDSII/tree/main/Soluções/VPL%201)  
 
 ### VPL 2 - Ponteiros
  - [Enunciado](https://github.com/IgorHen0/VPLs-PDSII/blob/main/Enunciados/enunciado_ponteiros.pdf)
- - [Solução sugeriada](https://github.com/IgorHen0/VPLs-PDSII/tree/main/VPL%202)  
+ - [Solução sugeriada](https://github.com/IgorHen0/VPLs-PDSII/tree/main/Soluções/VPL%202)  
 
 ### VPL 3 - TADs Controle Bancário
  - [Enunciado](https://github.com/IgorHen0/VPLs-PDSII/blob/main/Enunciados/enunciado_TAD_controle_bancario.pdf)
- - [Solução sugeriada](https://github.com/IgorHen0/VPLs-PDSII/tree/main/VPL%203)  
+ - [Solução sugeriada](https://github.com/IgorHen0/VPLs-PDSII/tree/main/Soluções/VPL%203)  
 
 ### VPL 4 - Makefile
  - [Enunciado](https://github.com/IgorHen0/VPLs-PDSII/blob/main/Enunciados/enunciado_makefile.pdf)
- - [Solução sugeriada](https://github.com/IgorHen0/VPLs-PDSII/tree/main/VPL%204)  
+ - [Solução sugeriada](https://github.com/IgorHen0/VPLs-PDSII/tree/main/Soluções/VPL%204)  
 
 ### VPL 5 - Inverter Lista
  - [Enunciado](https://github.com/IgorHen0/VPLs-PDSII/blob/main/Enunciados/enunciado_inverte_lista.pdf)
- - [Solução sugeriada](https://github.com/IgorHen0/VPLs-PDSII/tree/main/VPL%205)  
+ - [Solução sugeriada](https://github.com/IgorHen0/VPLs-PDSII/tree/main/Soluções/VPL%205)  
 
 ### VPL 6 - Contador de Palavras
  - [Enunciado](https://github.com/IgorHen0/VPLs-PDSII/blob/main/Enunciados/enunciado_conta_palavras.pdf)
- - [Solução sugeriada](https://github.com/IgorHen0/VPLs-PDSII/tree/main/VPL%206)  
+ - [Solução sugeriada](https://github.com/IgorHen0/VPLs-PDSII/tree/main/Soluções/VPL%206)  
 
 ### VPL 7 - Controle de Alunos
  - [Enunciado](https://github.com/IgorHen0/VPLs-PDSII/blob/main/Enunciados/enunciado_controle_alunos.pdf)
- - [Solução sugeriada](https://github.com/IgorHen0/VPLs-PDSII/tree/main/VPL%207)  
+ - [Solução sugeriada](https://github.com/IgorHen0/VPLs-PDSII/tree/main/Soluções/VPL%207)  
  
 ### VPL 8 - List
  - [Enunciado](https://github.com/IgorHen0/VPLs-PDSII/blob/main/Enunciados/enunciado_lista.pdf)
- - [Solução sugeriada](https://github.com/IgorHen0/VPLs-PDSII/tree/main/VPL%208)  
+ - [Solução sugeriada](https://github.com/IgorHen0/VPLs-PDSII/tree/main/Soluções/VPL%208)  
  
 ### VPL 9 - Figuras Geométricas
  - [Enunciado](https://github.com/IgorHen0/VPLs-PDSII/blob/main/Enunciados/enunciado_figuras_geometricas.pdf)
- - [Solução sugeriada](https://github.com/IgorHen0/VPLs-PDSII/tree/main/VPL%209)  
+ - [Solução sugeriada](https://github.com/IgorHen0/VPLs-PDSII/tree/main/Soluções/VPL%209)  
  
 ### VPL 10 - Batalha Pokémon
  - [Enunciado](https://github.com/IgorHen0/VPLs-PDSII/blob/main/Enunciados/enunciado_batalha_pokemon.pdf)
- - [Solução sugeriada](https://github.com/IgorHen0/VPLs-PDSII/tree/main/VPL%2010)  
+ - [Solução sugeriada](https://github.com/IgorHen0/VPLs-PDSII/tree/main/Soluções/VPL%2010)  
  
 ### VPL 11 - Templates
  - [Enunciado](https://github.com/IgorHen0/VPLs-PDSII/blob/main/Enunciados/enunciado_templates.pdf)
- - [Solução sugeriada](https://github.com/IgorHen0/VPLs-PDSII/tree/main/VPL%2011)  
+ - [Solução sugeriada](https://github.com/IgorHen0/VPLs-PDSII/tree/main/Soluções/VPL%2011)  
  
 ### VPL 12 - Heap Int
  - [Enunciado](https://github.com/IgorHen0/VPLs-PDSII/blob/main/Enunciados/enunciado_heap_int.pdf)
- - [Solução sugeriada](https://github.com/IgorHen0/VPLs-PDSII/tree/main/VPL%2012)  
+ - [Solução sugeriada](https://github.com/IgorHen0/VPLs-PDSII/tree/main/Soluções/VPL%2012)  
  
 ### VPL 13 - Smart Pointers
  - [Enunciado](https://github.com/IgorHen0/VPLs-PDSII/blob/main/Enunciados/enunciado_heap_int.pdf)
- - [Solução sugeriada](https://github.com/IgorHen0/VPLs-PDSII/tree/main/VPL%2013)  
+ - [Solução sugeriada](https://github.com/IgorHen0/VPLs-PDSII/tree/main/Soluções/VPL%2013)  
  
 ### VPL 14 - Tratamento de Exceções 
  - [Enunciado](https://github.com/IgorHen0/VPLs-PDSII/blob/main/Enunciados/enunciado_heap_int.pdf)
- - [Solução sugeriada](https://github.com/IgorHen0/VPLs-PDSII/tree/main/VPL%2014)  
+ - [Solução sugeriada](https://github.com/IgorHen0/VPLs-PDSII/tree/main/Soluções/VPL%2014)  
  
